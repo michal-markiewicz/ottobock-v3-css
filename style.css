@@ -550,10 +550,6 @@ div:has(> [data-testid="print-to-pdf-button"]),
   border-color: var(--otto-blue);
 }
 
-[class*="answers"] [data-testid="stack-answer"] .zoovu-component-answer-stack-wrapper {
-  margin: 0 10px 0 0;
-}
-
 .zv-advisor [data-testid="question-gallery-answer-container"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
