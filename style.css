@@ -1121,12 +1121,6 @@ button[data-testid="next-button"]:disabled {
     width: 400px;
   }
 
-  .zv-advisor.zv-advisor-flow-step-id-muscleStatus
-    .zoovu-component-flow-step:has(.zoovu-component-question-and-answers + .zoovu-component-question-and-answers)
-    .zoovu-component-question-layout {
-    grid-template-columns: 100px 1fr;
-  }
-
   [data-zv-id="zv-section-navigation-wrapper"] [data-testid="section-navigation"] {
     margin-top: 8px;
   }
