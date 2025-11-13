@@ -1060,13 +1060,6 @@ button[data-testid="next-button"]:disabled {
     overflow-y: auto;
   }
 
-  .zv-advisor:not(.zv-advisor-question-type-configurator)
-    .zoovu-component-flow-step:has(.zoovu-component-question-and-answers + .zoovu-component-question-and-answers)
-    .zoovu-component-question-and-answers {
-    width: min(95%, 600px);
-    margin: auto;
-  }
-
   .zv-advisor:is(.zv-advisor-flow-step-id-anamnese-one)
     .zoovu-component-flow-step:has(.zoovu-component-question-and-answers + .zoovu-component-question-and-answers)
     .zoovu-component-question-and-answers {
