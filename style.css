@@ -1729,3 +1729,8 @@ div[class*="component-answers-container"] div[class*="answers"] div[class*="answ
 div[class*="stageImagesContainer-"] img[src*="orca-"] {
   z-index: -1;
 }
+
+fieldset:has(.zoovu-component-answers-container) {
+  width: min(95%, 600px);
+  margin: auto;
+}
